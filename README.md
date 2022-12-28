@@ -44,7 +44,7 @@ This article focuses on how to setup an ODIC in Cognito and leverage Amplify Cli
     amplify add auth 
     ```
 5. Follow directions to add Okta OIDC https://aws.amazon.com/premiumsupport/knowledge-center/cognito-okta-oidc-identity-provider/
-6. Configure oidc-end.js to hold Okta params
+6. Configure `/src/oidc-env.js` to hold Okta OIDC params
 7. Amplify add api (API Gateway) with authenticated users only
     ``` bash
     amplify add api
